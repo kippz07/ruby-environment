@@ -9,3 +9,10 @@ sudo gem install bundler
 sudo gem install rake
 sudo gem install rails
 sudo apt-get install nginx -y
+
+sudo rm -r /etc/nginx/sites-available/default
+sudo touch /etc/nginx/sites-available/default
+
+sudo cp ~/app/templates/nginx.conf /etc/nginx/sites-available/default
+
+sudo service nginx reload
