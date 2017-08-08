@@ -16,3 +16,9 @@ sudo touch /etc/nginx/sites-available/default
 sudo cp ~/ruby-environment/templates/nginx.conf /etc/nginx/sites-available/default
 
 sudo service nginx reload
+
+cd ~/ruby-environment/environment
+./provision.sh
+cd ..
+bundle
+
