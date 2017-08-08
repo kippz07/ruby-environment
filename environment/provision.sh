@@ -17,8 +17,5 @@ sudo cp ~/ruby-environment/templates/nginx.conf /etc/nginx/sites-available/defau
 
 sudo service nginx reload
 
-cd ~/ruby-environment/environment
-./provision.sh
-cd ..
 bundle
 
