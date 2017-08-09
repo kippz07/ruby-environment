@@ -11,6 +11,10 @@ Vagrant.configure("2") do |config|
   config.hostsupdater.aliases = ["development.local"]
   config.vm.synced_folder ".", "/home/ubuntu/app"
 
+  config.ssh.username = 'vagrant'
+  config.ssh.password = 'vagrant'
+  config.ssh.insert_key=false
+
    # Synced app folder
   config.vm.synced_folder ".", "/home/ubuntu/app"
 
