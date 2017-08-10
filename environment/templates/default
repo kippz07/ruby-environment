@@ -3,12 +3,10 @@ server {
 
     server_name _;
 
-    location / {
-        proxy_pass http://localhost:4567;
-        proxy_http_version 1.1;
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection 'upgrade';
-        proxy_set_header Host $host;
-        proxy_cache_bypass $http_upgrade;
-    }
+    # Tell Nginx and Passenger where your app's 'public' directory is
+    root /home/ubuntu/app/public;
+
+    # Turn on Passenger
+    passenger_enabled on;
+    passenger_ruby /usr/bin/ruby2.4;
 }

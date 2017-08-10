@@ -1,7 +1,11 @@
-require 'sinatra'
+require 'sinatra/base'
 
-get "/"  do
-  
-  erb :'static/index'
+class App < Sinatra::Base
+
+    get "/"  do
+      
+      erb :'static/index'
+
+    end
 
 end

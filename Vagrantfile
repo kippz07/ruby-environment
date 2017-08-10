@@ -11,8 +11,6 @@ Vagrant.configure("2") do |config|
   config.hostsupdater.aliases = ["development.local"]
   config.vm.synced_folder ".", "/home/ubuntu/app"
 
-  # config.ssh.insert_key=false
-
    # Synced app folder
   config.vm.synced_folder ".", "/home/ubuntu/app"
 

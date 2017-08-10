@@ -1,0 +1,25 @@
+[ 2017-08-10 08:20:06.9302 23430/7fd388602780 age/Wat/WatchdogMain.cpp:1283 ]: Starting Passenger watchdog...
+[ 2017-08-10 08:20:06.9411 23433/7f76c4f66780 age/Cor/CoreMain.cpp:1083 ]: Starting Passenger core...
+[ 2017-08-10 08:20:06.9434 23433/7f76c4f66780 age/Cor/CoreMain.cpp:248 ]: Passenger core running in multi-application mode.
+[ 2017-08-10 08:20:06.9515 23433/7f76c4f66780 age/Cor/CoreMain.cpp:830 ]: Passenger core online, PID 23433
+[ 2017-08-10 08:20:06.9632 23439/7f9851a3e780 age/Ust/UstRouterMain.cpp:537 ]: Starting Passenger UstRouter...
+[ 2017-08-10 08:20:06.9642 23439/7f9851a3e780 age/Ust/UstRouterMain.cpp:350 ]: Passenger UstRouter online, PID 23439
+2017/08/10 08:20:09 [error] 23455#0: *4 directory index of "/home/ubuntu/app/public/" is forbidden, client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+[ 2017-08-10 08:20:09.3926 23433/7f76c4e2f700 age/Cor/SecurityUpdateChecker.h:374 ]: Security update check: no update found (next check in 24 hours)
+
+[ 2017-08-10 08:24:18.2305 23433/7f76bdb28700 age/Cor/CoreMain.cpp:588 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+
+[ 2017-08-10 08:24:18.2309 23433/7f76c4f66780 age/Cor/CoreMain.cpp:1002 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-08-10 08:24:18.2311 23439/7f984ae01700 age/Ust/UstRouterMain.cpp:430 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2017-08-10 08:24:18.2312 23439/7f9851a3e780 age/Ust/UstRouterMain.cpp:500 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2017-08-10 08:24:18.2313 23433/7f76bd2a6700 Ser/Server.h:862 ]: [ServerThr.2] Freed 0 spare client objects
+[ 2017-08-10 08:24:18.2315 23433/7f76bd2a6700 Ser/Server.h:490 ]: [ServerThr.2] Shutdown finished
+[ 2017-08-10 08:24:18.2325 23439/7f984a600700 Ser/Server.h:862 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2017-08-10 08:24:18.2329 23439/7f984a600700 Ser/Server.h:490 ]: [UstRouterApiServer] Shutdown finished
+[ 2017-08-10 08:24:18.2331 23433/7f76bdb28700 Ser/Server.h:862 ]: [ServerThr.1] Freed 0 spare client objects
+[ 2017-08-10 08:24:18.2338 23439/7f984ae01700 Ser/Server.h:490 ]: [UstRouter] Shutdown finished
+[ 2017-08-10 08:24:18.2349 23433/7f76bdb28700 Ser/Server.h:490 ]: [ServerThr.1] Shutdown finished
+[ 2017-08-10 08:24:18.2350 23433/7f76bca24700 Ser/Server.h:862 ]: [ApiServer] Freed 0 spare client objects
+[ 2017-08-10 08:24:18.2355 23433/7f76bca24700 Ser/Server.h:490 ]: [ApiServer] Shutdown finished
+[ 2017-08-10 08:24:18.2356 23439/7f9851a3e780 age/Ust/UstRouterMain.cpp:531 ]: Passenger UstRouter shutdown finished
+[ 2017-08-10 08:24:18.2684 23433/7f76c4f66780 age/Cor/CoreMain.cpp:1068 ]: Passenger core shutdown finished
