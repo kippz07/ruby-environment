@@ -21,7 +21,7 @@ sudo sh -c 'echo deb https://oss-binaries.phusionpassenger.com/apt/passenger xen
 sudo apt-get update
 
 # Install Passenger + Nginx
-yes y | sudo apt-get install -y nginx-extras passenger
+yes N | sudo apt-get install -y nginx-extras passenger
 
 sudo rm /etc/nginx/sites-available/default
 
